@@ -1,4 +1,5 @@
 import {useEffect, useState} from "react";
+import "./ProductTable.css"
 
 const ProductsTable = () => {
     const [products, setProducts] = useState([]);
@@ -10,9 +11,9 @@ const ProductsTable = () => {
             .catch(error => console.error('Error fetching data:', error));
     }, [products]);
     return (
-        <div>
-            <h1>Products Table</h1>
-            <table>
+        <div className="products-table-container">
+            <h1 className="table-title">Products Table</h1>
+            <table className="products-table">
                 <thead>
                 <tr>
                     {['Product ID', 'Name', 'Category', 'Uses', 'Energy', 'Carbohydrates', 'Fat', 'Protein'].map(header => (

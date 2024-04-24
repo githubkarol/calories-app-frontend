@@ -7,8 +7,6 @@ function App() {
     <>
         <ProductsTable/>
         <ProductApi/>
-
-
         <footer className="footer">
             <small>© Karol, Olga, Ernest, 2024</small>
             <br></br>
