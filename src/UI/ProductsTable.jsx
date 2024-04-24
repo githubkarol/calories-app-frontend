@@ -9,7 +9,7 @@ const ProductsTable = () => {
             .then(response => response.json())
             .then(data => setProducts(data))
             .catch(error => console.error('Error fetching data:', error));
-    }, [products]);
+    }, []);
     return (
         <div className="products-table-container">
             <h1 className="table-title">Products Table</h1>
