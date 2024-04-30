@@ -1,0 +1,14 @@
+.header_h1{
+    background-color: #312727;
+    height: 10em;
+    position: relative
+}
+
+.header_text {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}

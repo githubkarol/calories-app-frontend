@@ -1,9 +1,13 @@
 .products-table-container {
-    margin: 50px;
+    margin: 40px;
+    display: flex;
+    align-content: center;
 }
 
 .table-title {
     text-align: center;
+    font-size: 35px;
+    align-content: center;
 }
 
 .products-table {

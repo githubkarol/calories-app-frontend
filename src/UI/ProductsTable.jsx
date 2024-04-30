@@ -12,7 +12,7 @@ const ProductsTable = () => {
     }, []);
     return (
         <div className="products-table-container">
-            <h1 className="table-title">Products Table</h1>
+            <h1 className="table-title">List of available products</h1>
             <table className="products-table">
                 <thead>
                 <tr>
