@@ -1,5 +1,7 @@
 import {useEffect, useState} from "react";
 import "./ProductTable.css"
+import SelectList from "./SelectList.jsx";
+import "./SelectList.css";
 
 const ProductsTable = () => {
     const [products, setProducts] = useState([]);
@@ -12,7 +14,7 @@ const ProductsTable = () => {
     }, []);
     return (
         <div className="products-table-container">
-            <h1 className="table-title">List of available products</h1>
+            <SelectList products={products} />
             <table className="products-table">
                 <thead>
                 <tr>
