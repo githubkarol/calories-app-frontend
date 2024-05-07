@@ -6,3 +6,8 @@
 .btn-add {
     margin: 8px;
 }
+
+.total-calc {
+    font-weight: bold;
+    border-top: 2px solid black
+}

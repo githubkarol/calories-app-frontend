@@ -59,7 +59,7 @@ const SelectList = ({ products }) => {
                 </div>
             ))}
             <button className="btn-add" onClick={handleAddSelect}>+</button>
-            <div>Total Energy: {totalEnergy}</div>
+            <div className="total-calc">Total Energy: {totalEnergy}</div>
         </div>
     );
 };
