@@ -27,7 +27,7 @@
 }
 
 .products-table tbody tr:nth-child(even) {
-    background-color: #1679ab;
+    background-color: #0a5a83;
 }
 
 .products-table tbody tr:hover {
