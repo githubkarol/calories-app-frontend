@@ -13,7 +13,7 @@
 .products-table {
     width: 100%;
     border-collapse: collapse;
-    border: 1px solid #ddd;
+    border: 5px solid #153448;
 }
 
 .products-table th, .products-table td {
@@ -22,14 +22,14 @@
 }
 
 .products-table th {
-    background-color: #bd5555;
+    background-color: #153448;
     font-weight: bold;
 }
 
 .products-table tbody tr:nth-child(even) {
-    background-color: #2f2929;
+    background-color: #1679ab;
 }
 
 .products-table tbody tr:hover {
-    background-color: #a85d5d;
+    background-color: #3c5b6f;
 }

@@ -49,6 +49,7 @@ const SelectList = ({ products }) => {
                         onChange={(event) => handleSelectChange(event, index)}
                     >
                         <option value="">--Please choose an option--</option>
+                        {/* eslint-disable-next-line react/prop-types */}
                         {products.map(({ productId, name, energy }) => (
                             <option key={productId} value={productId}>
                                 {name} - Energy: {energy}
@@ -57,7 +58,7 @@ const SelectList = ({ products }) => {
                     </select>
                 </div>
             ))}
-            <button onClick={handleAddSelect}>+</button>
+            <button className="btn-add" onClick={handleAddSelect}>+</button>
             <div>Total Energy: {totalEnergy}</div>
         </div>
     );
