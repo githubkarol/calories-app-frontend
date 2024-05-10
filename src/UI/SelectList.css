@@ -1,10 +1,12 @@
 .select-container {
     padding: 10px;
     margin-right: 15px;
+    min-width: 210px;
 }
 
 .btn-add {
     margin: 8px;
+    background-color: #153448;
 }
 
 .total-calc {

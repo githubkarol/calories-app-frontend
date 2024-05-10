@@ -52,14 +52,14 @@ const SelectList = ({ products }) => {
                         {/* eslint-disable-next-line react/prop-types */}
                         {products.map(({ productId, name, energy }) => (
                             <option key={productId} value={productId}>
-                                {name} - Energy: {energy}
+                                {name} - kalorie: {energy}
                             </option>
                         ))}
                     </select>
                 </div>
             ))}
             <button className="btn-add" onClick={handleAddSelect}>+</button>
-            <div className="total-calc">Total Energy: {totalEnergy}</div>
+            <div className="total-calc">Total kalorie: {totalEnergy}</div>
         </div>
     );
 };

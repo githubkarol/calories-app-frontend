@@ -1,7 +1,6 @@
 .products-table-container {
     margin: 40px;
-    display: flex;
-    align-content: center;
+    display: block;
 }
 
 .table-title {
@@ -29,7 +28,7 @@
 }
 
 .products-table tbody tr:nth-child(even) {
-    background-color: #0a5a83;
+    background-color: #0a0a0a;
 }
 
 .products-table tbody tr:hover {
@@ -48,5 +47,12 @@
     .products-table th:not(:nth-child(2)):not(:nth-child(5)),
     .products-table td:not(:nth-child(2)):not(:nth-child(5)) {
         display: none;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .products-table-container {
+        display: flex;
+        align-content: center;
     }
 }

@@ -18,7 +18,7 @@ const ProductsTable = () => {
             <table className="products-table">
                 <thead>
                 <tr>
-                    {['Product ID', 'Name', 'Category', 'Uses', 'Energy', 'Carbo', 'Fat', 'Protein'].map(header => (
+                    {['ID', 'Nazwa', 'Kategoria', 'Zastosowania', 'Energia', 'Carbo', 'Tłuszcz', 'Białko'].map(header => (
                         <th key={header}>{header}</th>
                     ))}
                 </tr>
