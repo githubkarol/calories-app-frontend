@@ -19,6 +19,8 @@
 .products-table th, .products-table td {
     padding: 8px;
     text-align: left;
+    border-bottom: 1px solid #ddd;
+    line-height: 0.9;
 }
 
 .products-table th {
@@ -32,4 +34,19 @@
 
 .products-table tbody tr:hover {
     background-color: #3c5b6f;
+}
+
+@media only screen and (max-width: 768px) {
+    .products-table {
+        overflow-x: auto;
+    }
+    .products-table th,
+    .products-table td {
+        white-space: nowrap;
+    }
+
+    .products-table th:not(:nth-child(2)):not(:nth-child(5)),
+    .products-table td:not(:nth-child(2)):not(:nth-child(5)) {
+        display: none;
+    }
 }
