@@ -48,7 +48,7 @@ const SelectList = ({ products }) => {
                         value={selectedProduct}
                         onChange={(event) => handleSelectChange(event, index)}
                     >
-                        <option value="">--Please choose an option--</option>
+                        <option value="">--Proszę wybrać produkt--</option>
                         {/* eslint-disable-next-line react/prop-types */}
                         {products.map(({ productId, name, energy }) => (
                             <option key={productId} value={productId}>
