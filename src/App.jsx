@@ -7,11 +7,6 @@ function App() {
     <>
         <Header/>
         <ProductsTable/>
-        <footer className="footer">
-            <small>© Karol, Olga, Ernest, 2024</small>
-            <br></br>
-        </footer>
-
     </>
   )
 }
